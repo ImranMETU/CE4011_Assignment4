@@ -1,0 +1,130 @@
+% ============================================================
+% CE4011 Assignment 4 Report (LaTeX Skeleton)
+% Suggested project layout:
+% .
+% |-- main.tex
+% |-- Chapter1_Assignment4_ProgramDesign.tex
+% |-- Chapter2_Assignment4_TestingVerification.tex
+% |-- Chapter3_Assignment4_StructuralAnalysisCases.tex
+% |-- Chapter4_Assignment4_Conclusion.tex
+% |-- Chapter5_Assignment4_References.tex
+% |-- bibliography.bib
+% |-- images/
+% |-- tables/
+% |-- appendices/   % Optional for future code appendix
+% ============================================================
+
+\documentclass[12pt,a4paper]{report}
+
+% ------------------------------
+% Core packages
+% ------------------------------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+
+% ------------------------------
+% Math and symbols
+% ------------------------------
+\usepackage{amsmath,amssymb,mathtools}
+
+% ------------------------------
+% Figures, tables, and float control
+% ------------------------------
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{placeins}
+
+% ------------------------------
+% Code listings
+% ------------------------------
+\usepackage{xcolor}
+\usepackage{listings}
+\lstdefinestyle{codeStyle}{
+    basicstyle=\ttfamily\small,
+    keywordstyle=\color{blue},
+    commentstyle=\color{teal},
+    stringstyle=\color{purple},
+    numbers=left,
+    numberstyle=\tiny,
+    stepnumber=1,
+    numbersep=8pt,
+    frame=single,
+    breaklines=true,
+    showstringspaces=false,
+    tabsize=4
+}
+\lstset{style=codeStyle}
+
+% ------------------------------
+% Hyperlinks
+% ------------------------------
+\usepackage[hidelinks]{hyperref}
+\usepackage[nameinlink,noabbrev]{cleveref}
+
+% ------------------------------
+% Bibliography (placeholder)
+% ------------------------------
+\usepackage[backend=biber,style=ieee]{biblatex}
+\addbibresource{bibliography.bib}
+
+\begin{document}
+
+% ============================================================
+% Title Page
+% ============================================================
+\begin{titlepage}
+    \centering
+    \vspace*{2.5cm}
+
+    {\Large \textbf{CE4011 Assignment 4} \par}
+    \vspace{0.8cm}
+
+    {\large Special Topics in Civil Engineering: Structural Analysis Software Development \par}
+    \vspace{0.6cm}
+
+    {\large Spring Semester 2025--2026 \par}
+    \vfill
+
+    {\large \textbf{Imran Shahriar} \par}
+    \vspace{0.3cm}
+    {\large 2735835 \par}
+    \vspace{0.3cm}
+    {\large MSc. in Structural Engineering \par}
+    \vspace{1.2cm}
+
+    {\large Submitted to Prof. Dr. Ozgur Kurc \par}
+    \vfill
+
+    {\large \today \par}
+\end{titlepage}
+
+% ============================================================
+% Front matter
+% ============================================================
+\pagenumbering{roman}
+\tableofcontents
+\listoffigures
+\listoftables
+\clearpage
+
+% ============================================================
+% Main matter
+% ============================================================
+\pagenumbering{arabic}
+
+\input{Chapter1_Assignment4_ProgramDesign}
+\input{Chapter2_Assignment4_TestingVerification}
+\input{Chapter3_Assignment4_StructuralAnalysisCases}
+\input{Chapter4_Assignment4_Conclusion}
+\input{Chapter5_Assignment4_References}
+
+\end{document}

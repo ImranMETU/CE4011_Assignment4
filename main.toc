@@ -1,0 +1,63 @@
+\contentsline {chapter}{\numberline {1}Revised Object-Oriented Structural Analysis Program}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Analysis and Design Decisions}{2}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Thermal vs Settlement Modeling}{2}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Modification Strategy}{2}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Revised UML and Class Modifications}{3}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Updated Class Responsibilities}{3}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}UML/Class Diagram}{3}{subsection.1.3.2}%
+\contentsline {section}{\numberline {1.4}Thermal Loading Extension}{4}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Modeling Approach}{4}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Uniform Temperature Change}{4}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3}Thermal Gradient Effects}{4}{subsection.1.4.3}%
+\contentsline {subsection}{\numberline {1.4.4}Implementation in Elements}{4}{subsection.1.4.4}%
+\contentsline {section}{\numberline {1.5}Support Settlement Extension}{5}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Settlement Modeling Approach}{5}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Partitioned System Formulation}{5}{subsection.1.5.2}%
+\contentsline {section}{\numberline {1.6}Updated Relationships and Workflow}{6}{section.1.6}%
+\contentsline {subsection}{\numberline {1.6.1}Analysis Workflow}{6}{subsection.1.6.1}%
+\contentsline {subsection}{\numberline {1.6.2}Workflow Illustration}{6}{subsection.1.6.2}%
+\contentsline {section}{\numberline {1.7}Input Format}{7}{section.1.7}%
+\contentsline {subsection}{\numberline {1.7.1}Data Schema Overview}{7}{subsection.1.7.1}%
+\contentsline {subsection}{\numberline {1.7.2}Example Input Snippet}{7}{subsection.1.7.2}%
+\contentsline {section}{\numberline {1.8}Output Format}{8}{section.1.8}%
+\contentsline {subsection}{\numberline {1.8.1}Reported Quantities}{8}{subsection.1.8.1}%
+\contentsline {subsection}{\numberline {1.8.2}Output Table Structure}{8}{subsection.1.8.2}%
+\contentsline {section}{\numberline {1.9}GitHub Repository Summary}{9}{section.1.9}%
+\contentsline {chapter}{\numberline {2}Testing and Verification}{10}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Testing Framework}{10}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Unit Tests}{10}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Unit Test 1: Thermal Load Component}{10}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Unit Test 2: Support Settlement Component}{10}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Interface and Integration Tests}{10}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Integration Test 1: Thermal Loading Pipeline}{10}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Integration Test 2: Settlement + Structural Solver Pipeline}{10}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}Thermal Verification Cases}{10}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Case Definition and Assumptions}{10}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Verification Results}{10}{subsection.2.4.2}%
+\contentsline {section}{\numberline {2.5}Settlement Verification Cases}{11}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Case Definition and Assumptions}{11}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Verification Results}{11}{subsection.2.5.2}%
+\contentsline {section}{\numberline {2.6}Summary Table of Verification Results}{11}{section.2.6}%
+\contentsline {chapter}{\numberline {3}Analysis of Assignment Structures}{12}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Overview of Assignment Structures}{12}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Structure (a): Settlement Case}{12}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Model Description}{12}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Input Assumptions}{12}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Solver Results}{12}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Benchmark Comparison (SAP2000 / Hand Calculation)}{12}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}Structure (b): Thermal Case}{13}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Model Description}{13}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Input Assumptions}{13}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Solver Results}{13}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Benchmark Comparison (SAP2000 / Hand Calculation)}{13}{subsection.3.3.4}%
+\contentsline {section}{\numberline {3.4}Discussion of Discrepancies}{13}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Observed Differences}{13}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Potential Sources of Error}{13}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Engineering Interpretation}{13}{subsection.3.4.3}%
+\contentsline {chapter}{\numberline {4}Conclusion}{14}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Summary of Extensions}{14}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Solver Capability Improvements}{14}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Verification Outcome}{14}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Final Remarks}{14}{section.4.4}%
+\contentsline {chapter}{\numberline {5}References}{15}{chapter.5}%
