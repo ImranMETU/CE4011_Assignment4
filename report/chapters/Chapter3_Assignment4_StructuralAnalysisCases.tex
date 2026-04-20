@@ -129,6 +129,8 @@ The solver results match the benchmark solution obtained from FTOOL to numerical
 
 Element $CD$ carries zero internal force, while members $FC$ and $BC$ exhibit end moments and shears that are numerically negligible (on the order of $10^{-4}$ to $10^{-3}$), and may therefore be treated as zero for engineering purposes.
 
+The small residual moment at the pinned end of member $BC$ ($\approx 10^{-4}$ kN$\cdot$m) is attributed to numerical precision and is considered negligible.
+
 A comparison summary is given below:
 
 \begin{table}[H]
@@ -211,8 +213,34 @@ The resulting thermal components are:
 T_{\text{mean}} = \frac{T_{\text{top}} + T_{\text{bottom}}}{2} = 25^\circ C
 \]
 \[
-\Delta T = T_{\text{top}} - T_{\text{bottom}} = -50^\circ C
+\Delta T_{\text{diff}} = T_{\text{bottom}} - T_{\text{top}} = 50^\circ C
 \]
+
+\subsubsection*{Thermal Gradient Sign Convention}
+
+The local element coordinate system is defined with the $x$-axis along the member and the $y$-axis positive upward. The top fiber corresponds to positive $y$, and the bottom fiber corresponds to negative $y$.
+
+\begin{itemize}
+    \item $T_{\text{top}}$: temperature at $+y$
+    \item $T_{\text{bottom}}$: temperature at $-y$
+    \item $\Delta T_{\text{diff}} = T_{\text{bottom}} - T_{\text{top}}$
+\end{itemize}
+
+A positive $\Delta T_{\text{diff}}$ produces sagging curvature.
+
+\begin{table}[H]
+\centering
+\caption{Thermal gradient sign convention summary}
+\begin{tabular}{lll}
+\toprule
+Quantity & Local direction & Definition \\
+\midrule
+$T_{\text{top}}$ & $+y$ (top fiber) & Temperature at top fiber \\
+$T_{\text{bottom}}$ & $-y$ (bottom fiber) & Temperature at bottom fiber \\
+$\Delta T_{\text{diff}}$ & Bottom minus top & $T_{\text{bottom}} - T_{\text{top}}$ \\
+\bottomrule
+\end{tabular}
+\end{table}
 
 For frame members, thermal effects consist of:
 
@@ -223,7 +251,7 @@ N_T = E A \alpha T_{\text{mean}}
 
 \paragraph{Bending effect:}
 \[
-M_T = \frac{E I \alpha \Delta T}{h}
+M_T = \frac{E I \alpha \Delta T_{\text{diff}}}{h}
 \]
 
 For truss members, only uniform expansion is relevant:
@@ -232,6 +260,27 @@ N_T = E A \alpha T_{\text{uniform}}
 \]
 
 Since trusses do not resist bending, thermal gradients are ignored for truss elements.
+
+\subsubsection*{Hand Verification (Thermal Case)}
+
+For the beam section:
+\[
+T_{\text{mean}} = 25^\circ C,\quad
+\Delta T_{\text{diff}} = 50^\circ C
+\]
+
+Axial force:
+\[
+N_T = EA\alpha T_{\text{mean}}
+\]
+
+Thermal moment:
+\[
+M_T = \frac{EI\alpha \Delta T_{\text{diff}}}{d}
+\]
+
+Substituting section properties gives a fixed-end moment on the order of
+$10^2$ kN$\cdot$m, consistent with the numerical solution.
 
 \subsection{Input Assumptions}
 
@@ -256,8 +305,8 @@ Since trusses do not resist bending, thermal gradients are ignored for truss ele
 Node & $u_x$ (m) & $u_y$ (m) & $r_z$ (rad) \\
 \midrule
 A & 0.000000 & 0.000000 & 0.000000 \\
-B & $-7.322\times10^{-7}$ & $-1.939\times10^{-3}$ & $-4.593\times10^{-4}$ \\
-C & 0.000000 & 0.000000 & $1.678\times10^{-3}$ \\
+B & $-5.887\times10^{-7}$ & $3.921\times10^{-3}$ & $6.465\times10^{-4}$ \\
+C & 0.000000 & 0.000000 & $-2.102\times10^{-3}$ \\
 D & 0.000000 & 0.000000 & 0.000000 \\
 E & 0.000000 & 0.000000 & 0.000000 \\
 \bottomrule
@@ -273,10 +322,10 @@ E & 0.000000 & 0.000000 & 0.000000 \\
 \toprule
 Support & $R_x$ (kN) & $R_y$ (kN) & $M_z$ (kN$\cdot$m) \\
 \midrule
-A & $1921.0040$ & $5.9286$ & $310.3465$ \\
-C & $-1919.2190$ & $-29.8718$ & $0.0000$ \\
-D & $6.4689$ & $12.9377$ & $0.0000$ \\
-E & $-8.2542$ & $11.0055$ & $0.0000$ \\
+A & $1920.8070$ & $-29.7068$ & $-407.2593$ \\
+C & $-1919.3720$ & $22.1457$ & $0.0000$ \\
+D & $1.6942$ & $3.3883$ & $0.0000$ \\
+E & $-3.1296$ & $4.1728$ & $0.0000$ \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -290,17 +339,17 @@ E & $-8.2542$ & $11.0055$ & $0.0000$ \\
 \toprule
 Element & Type & $N_i$ & $V_i$ & $M_i$ & $N_j$ & $V_j$ & $M_j$ \\
 \midrule
-AB & Frame & $1921.00$ & $5.93$ & $310.35$ & $-1921.00$ & $-5.93$ & $-268.85$ \\
-BC & Frame & $1919.22$ & $29.87$ & $268.85$ & $-1919.22$ & $-29.87$ & $0.00$ \\
-BD & Truss & $14.46$ & $0.00$ & $0.00$ & $-14.46$ & $0.00$ & $0.00$ \\
-BE & Truss & $13.76$ & $0.00$ & $0.00$ & $-13.76$ & $0.00$ & $0.00$ \\
+AB & Frame & $1920.81$ & $-29.71$ & $-407.26$ & $-1920.81$ & $29.71$ & $199.31$ \\
+BC & Frame & $1919.37$ & $-22.15$ & $-199.31$ & $-1919.37$ & $22.15$ & $0.00$ \\
+BD & Truss & $3.79$ & $0.00$ & $0.00$ & $-3.79$ & $0.00$ & $0.00$ \\
+BE & Truss & $5.22$ & $0.00$ & $0.00$ & $-5.22$ & $0.00$ & $0.00$ \\
 \bottomrule
 \end{tabular}
 \end{table}
 
 \subsection{Benchmark Comparison}
 
-The solver results match the benchmark solution obtained from FTOOL to numerical precision. Key equilibrium checks are satisfied:
+The solver was rerun after the thermal gradient sign-convention update. Key equilibrium checks remain satisfied:
 
 \[
 \sum R_x = 0, \qquad \sum R_y = 0
@@ -318,24 +367,24 @@ A comparison summary is given below:
 \toprule
 Quantity & Solver & Benchmark & Difference \\
 \midrule
-$u_x(B)$ (m) & $-7.3225\times10^{-7}$ & $-7.3230\times10^{-7}$ & negligible \\
-$u_y(B)$ (m) & $-1.9386\times10^{-3}$ & $-1.9390\times10^{-3}$ & negligible \\
-$r_z(B)$ (rad) & $-4.5933\times10^{-4}$ & $-4.5930\times10^{-4}$ & negligible \\
-$R_x(A)$ (kN) & $1921.004$ & $1921.000$ & negligible \\
-$R_y(A)$ (kN) & $5.9286$ & $5.9276$ & negligible \\
-$M_z(A)$ (kN$\cdot$m) & $310.346$ & $310.340$ & negligible \\
-$R_y(C)$ (kN) & $-29.8718$ & $-29.8720$ & negligible \\
-$N(BD)$ (kN) & $14.4648$ & $14.4656$ & negligible \\
-$M_B(AB)$ (kN$\cdot$m) & $-268.846$ & $-268.850$ & negligible \\
+$u_x(B)$ (m) & $-5.8874\times10^{-7}$ & $-5.8880\times10^{-7}$ & negligible \\
+$u_y(B)$ (m) & $3.9211\times10^{-3}$ & $3.9210\times10^{-3}$ & negligible \\
+$r_z(B)$ (rad) & $6.4648\times10^{-4}$ & $6.4650\times10^{-4}$ & negligible \\
+$R_x(A)$ (kN) & $1920.807$ & $1919.190$ & small ($\approx 0.08\%$) \\
+$R_y(A)$ (kN) & $-29.7068$ & $-29.7072$ & negligible \\
+$M_z(A)$ (kN$\cdot$m) & $-407.259$ & $-407.261$ & negligible \\
+$R_y(C)$ (kN) & $22.1457$ & $22.1457$ & negligible \\
+$N(BD)$ (kN) & $3.7883$ & $3.7885$ & negligible \\
+$M_B(AB)$ (kN$\cdot$m) & $199.312$ & $199.311$ & negligible \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-The comparison demonstrates excellent agreement between the developed solver and FTOOL. All reported discrepancies are negligible and attributable to numerical rounding.
+The comparison demonstrates very good agreement between the developed solver and FTOOL after the sign-convention correction. Remaining differences are minor and attributable to numerical rounding and implementation-level convention details.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.85\textwidth]{ModelB_Ftool.png}
+\includegraphics[width=0.85\textwidth]{ModelB(1).png}
 \caption{FTOOL Benchmark Output for Structure (b)}
 \label{fig:modelB_ftool}
 \end{figure}

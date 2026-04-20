@@ -2,8 +2,8 @@ This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./main.tex
-(main.tex
+**./report/main.tex
+(report/main.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
 (C:\Users\Imran\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
@@ -781,7 +781,7 @@ Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
 ))
 \@quotelevel=\count464
 \@quotereset=\count465
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 83
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 80
 .
  (C:\Users\Imran\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -789,24 +789,24 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -874,7 +874,7 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count472
-Package hyperref Info: Link coloring OFF on input line 83.
+Package hyperref Info: Link coloring OFF on input line 80.
  (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -894,57 +894,57 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 83.
-Package biblatex Info: Reference segment=0 on input line 83.
-Package hyperref Info: Option `pageanchor' set `false' on input line 88.
-<../images/metu_logo.jpg, id=291, 475.7775pt x 475.7775pt>
-File: ../images/metu_logo.jpg Graphic file (type jpg)
-<use ../images/metu_logo.jpg>
-Package pdftex.def Info: ../images/metu_logo.jpg  used on input line 97.
+Package biblatex Info: Reference section=0 on input line 80.
+Package biblatex Info: Reference segment=0 on input line 80.
+Package hyperref Info: Option `pageanchor' set `false' on input line 85.
+<report/images/metu_logo.jpg, id=291, 475.7775pt x 475.7775pt>
+File: report/images/metu_logo.jpg Graphic file (type jpg)
+<use report/images/metu_logo.jpg>
+Package pdftex.def Info: report/images/metu_logo.jpg  used on input line 94.
 (pdftex.def)             Requested size: 190.24568pt x 190.24954pt.
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-06.
+03.
 
 (C:\Users\Imran\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-06.
+03.
 
 (C:\Users\Imran\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-06.
+03.
 
 (C:\Users\Imran\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-106.
+103.
 
 (C:\Users\Imran\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-106.
+103.
 
 (C:\Users\Imran\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 106.
+(Font)              <12> on input line 103.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 106.
+(Font)              <8> on input line 103.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 106.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 106
+(Font)              <6> on input line 103.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 103
 .
 
 (C:\Users\Imran\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 106
+LaTeX Font Info:    Trying to load font information for U+msb on input line 103
 .
 
 (C:\Users\Imran\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -953,9 +953,9 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [1
 
 {C:/Users/Imran/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Imra
-n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <../images/metu_l
-ogo.jpg>]
-Package hyperref Info: Option `pageanchor' set `true' on input line 125.
+n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./report/images/
+metu_logo.jpg>]
+Package hyperref Info: Option `pageanchor' set `true' on input line 122.
  (main.toc [1
 
 ] [2])
@@ -975,7 +975,7 @@ Package hyperref Info: Option `pageanchor' set `true' on input line 125.
  [5
 
 ]
-(Chapter1_Assignment4_ProgramDesign.tex
+(report/chapters/Chapter1_Assignment4_ProgramDesign.tex
 Chapter 1.
 [1
 
@@ -1025,10 +1025,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
 [4{C:/Users/Imran/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.en
 c}]
-<../images/UML_4.png, id=492, 2593.69pt x 1297.84875pt>
-File: ../images/UML_4.png Graphic file (type png)
-<use ../images/UML_4.png>
-Package pdftex.def Info: ../images/UML_4.png  used on input line 84.
+<report/images/UML_4.png, id=490, 2593.69pt x 1297.84875pt>
+File: report/images/UML_4.png Graphic file (type png)
+<use report/images/UML_4.png>
+Package pdftex.def Info: report/images/UML_4.png  used on input line 84.
 (pdftex.def)             Requested size: 430.31497pt x 406.28967pt.
 
 Overfull \hbox (4.10857pt too wide) in paragraph at lines 91--94
@@ -1037,20 +1037,20 @@ Overfull \hbox (4.10857pt too wide) in paragraph at lines 91--94
 \T1/lmtt/m/n/12 Structure\T1/lmr/m/n/12 . 
  []
 
-[5 <../images/UML_4.png>] [6{C:/Users/Imran/AppData/Local/Programs/MiKTeX/fonts
-/enc/dvips/lm/lm-mathex.enc}]
+[5 <./report/images/UML_4.png>] [6{C:/Users/Imran/AppData/Local/Programs/MiKTeX
+/fonts/enc/dvips/lm/lm-mathex.enc}]
 Overfull \hbox (49.85934pt too wide) in paragraph at lines 167--176
  [][] 
  []
 
 [7] [8] [9]
-<../images/ActivityDiagram.png, id=527, 397.485pt x 636.3775pt>
-File: ../images/ActivityDiagram.png Graphic file (type png)
-<use ../images/ActivityDiagram.png>
-Package pdftex.def Info: ../images/ActivityDiagram.png  used on input line 274.
-
+<report/images/ActivityDiagram.png, id=525, 397.485pt x 636.3775pt>
+File: report/images/ActivityDiagram.png Graphic file (type png)
+<use report/images/ActivityDiagram.png>
+Package pdftex.def Info: report/images/ActivityDiagram.png  used on input line 
+274.
 (pdftex.def)             Requested size: 385.02547pt x 616.45035pt.
- [10 <../images/ActivityDiagram.png>]
+ [10 <./report/images/ActivityDiagram.png>]
 (C:\Users\Imran\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
 )
@@ -1072,7 +1072,7 @@ Overfull \hbox (16.33234pt too wide) in paragraph at lines 369--369
 _model_b, etc.)[] 
  []
 
-[13]) (Chapter2_Assignment4_TestingVerification.tex [14]
+[13]) (report/chapters/Chapter2_Assignment4_TestingVerification.tex [14]
 Chapter 2.
 [15
 
@@ -1081,90 +1081,90 @@ Overfull \hbox (36.38405pt too wide) in paragraph at lines 374--388
  [][] 
  []
 
-<../../results/benchmark/ftool/test_results_screenshot.png, id=614, 1021.8175pt
- x 595.22375pt>
-File: ../../results/benchmark/ftool/test_results_screenshot.png Graphic file (t
-ype png)
-<use ../../results/benchmark/ftool/test_results_screenshot.png>
-Package pdftex.def Info: ../../results/benchmark/ftool/test_results_screenshot.
-png  used on input line 392.
+<results/benchmark/ftool/test_results_screenshot.png, id=612, 1021.8175pt x 595
+.22375pt>
+File: results/benchmark/ftool/test_results_screenshot.png Graphic file (type pn
+g)
+<use results/benchmark/ftool/test_results_screenshot.png>
+Package pdftex.def Info: results/benchmark/ftool/test_results_screenshot.png  u
+sed on input line 392.
 (pdftex.def)             Requested size: 452.9679pt x 263.86105pt.
-[22] [23 <../../results/benchmark/ftool/test_results_screenshot.png (PNG copy)>
-]
-<../../results/benchmark/ftool/Regression_Thermal_Uniform.png, id=623, 472.7662
-5pt x 103.88812pt>
-File: ../../results/benchmark/ftool/Regression_Thermal_Uniform.png Graphic file
- (type png)
-<use ../../results/benchmark/ftool/Regression_Thermal_Uniform.png>
-Package pdftex.def Info: ../../results/benchmark/ftool/Regression_Thermal_Unifo
-rm.png  used on input line 430.
+[22] [23 <./results/benchmark/ftool/test_results_screenshot.png (PNG copy)>]
+<results/benchmark/ftool/Regression_Thermal_Uniform.png, id=621, 472.76625pt x 
+103.88812pt>
+File: results/benchmark/ftool/Regression_Thermal_Uniform.png Graphic file (type
+ png)
+<use results/benchmark/ftool/Regression_Thermal_Uniform.png>
+Package pdftex.def Info: results/benchmark/ftool/Regression_Thermal_Uniform.png
+  used on input line 430.
 (pdftex.def)             Requested size: 326.13744pt x 71.66861pt.
- [24 <../../results/benchmark/ftool/Regression_Thermal_Uniform.png>]
-<../../results/benchmark/ftool/Regression_Thermal_Gradient.png, id=630, 503.631
-56pt x 89.58469pt>
-File: ../../results/benchmark/ftool/Regression_Thermal_Gradient.png Graphic fil
-e (type png)
-<use ../../results/benchmark/ftool/Regression_Thermal_Gradient.png>
-Package pdftex.def Info: ../../results/benchmark/ftool/Regression_Thermal_Gradi
-ent.png  used on input line 474.
-(pdftex.def)             Requested size: 326.13744pt x 58.012pt.
-<../../results/benchmark/ftool/Regression_Thermal_Combined.png, id=631, 1098.35
-344pt x 182.18062pt>
-File: ../../results/benchmark/ftool/Regression_Thermal_Combined.png Graphic fil
-e (type png)
-<use ../../results/benchmark/ftool/Regression_Thermal_Combined.png>
-Package pdftex.def Info: ../../results/benchmark/ftool/Regression_Thermal_Combi
-ned.png  used on input line 515.
-(pdftex.def)             Requested size: 326.13744pt x 54.09306pt.
- [25 <../../results/benchmark/ftool/Regression_Thermal_Gradient.png> <../../res
-ults/benchmark/ftool/Regression_Thermal_Combined.png>]
-<../../results/benchmark/ftool/Regression_Settlement.png, id=639, 1136.74687pt 
-x 204.765pt>
-File: ../../results/benchmark/ftool/Regression_Settlement.png Graphic file (typ
+
+[24 <./results/benchmark/ftool/Regression_Thermal_Uniform.png>]
+<results/benchmark/ftool/Regression_Thermal_Gradient.png, id=628, 503.63156pt x
+ 89.58469pt>
+File: results/benchmark/ftool/Regression_Thermal_Gradient.png Graphic file (typ
 e png)
-<use ../../results/benchmark/ftool/Regression_Settlement.png>
-Package pdftex.def Info: ../../results/benchmark/ftool/Regression_Settlement.pn
-g  used on input line 560.
+<use results/benchmark/ftool/Regression_Thermal_Gradient.png>
+Package pdftex.def Info: results/benchmark/ftool/Regression_Thermal_Gradient.pn
+g  used on input line 474.
+(pdftex.def)             Requested size: 326.13744pt x 58.012pt.
+<results/benchmark/ftool/Regression_Thermal_Combined.png, id=629, 1098.35344pt 
+x 182.18062pt>
+File: results/benchmark/ftool/Regression_Thermal_Combined.png Graphic file (typ
+e png)
+<use results/benchmark/ftool/Regression_Thermal_Combined.png>
+Package pdftex.def Info: results/benchmark/ftool/Regression_Thermal_Combined.pn
+g  used on input line 515.
+(pdftex.def)             Requested size: 326.13744pt x 54.09306pt.
+ [25 <./results/benchmark/ftool/Regression_Thermal_Gradient.png> <./results/ben
+chmark/ftool/Regression_Thermal_Combined.png>]
+<results/benchmark/ftool/Regression_Settlement.png, id=637, 1136.74687pt x 204.
+765pt>
+File: results/benchmark/ftool/Regression_Settlement.png Graphic file (type png)
+
+<use results/benchmark/ftool/Regression_Settlement.png>
+Package pdftex.def Info: results/benchmark/ftool/Regression_Settlement.png  use
+d on input line 560.
 (pdftex.def)             Requested size: 326.13744pt x 58.74918pt.
- [26 <../../results/benchmark/ftool/Regression_Settlement.png>]) (Chapter3_Assi
-gnment4_StructuralAnalysisCases.tex [27]
+ [26 <./results/benchmark/ftool/Regression_Settlement.png>]) (report/chapters/C
+hapter3_Assignment4_StructuralAnalysisCases.tex
+[27]
 Chapter 3.
-<../images/ModelA.png, id=649, 766.36313pt x 436.63126pt>
-File: ../images/ModelA.png Graphic file (type png)
-<use ../images/ModelA.png>
-Package pdftex.def Info: ../images/ModelA.png  used on input line 19.
+<report/images/ModelA.png, id=647, 766.36313pt x 436.63126pt>
+File: report/images/ModelA.png Graphic file (type png)
+<use report/images/ModelA.png>
+Package pdftex.def Info: report/images/ModelA.png  used on input line 19.
 (pdftex.def)             Requested size: 385.02547pt x 219.36775pt.
 [28
 
-] [29 <../images/ModelA.png>] [30]
+] [29 <./report/images/ModelA.png>] [30]
 Overfull \hbox (60.59714pt too wide) in paragraph at lines 109--120
  [][] 
  []
 
 [31]
-<../../results/benchmark/ftool/ModelA_Ftool.png, id=677, 968.11688pt x 362.1028
-1pt>
-File: ../../results/benchmark/ftool/ModelA_Ftool.png Graphic file (type png)
-<use ../../results/benchmark/ftool/ModelA_Ftool.png>
-Package pdftex.def Info: ../../results/benchmark/ftool/ModelA_Ftool.png  used o
-n input line 154.
+<results/benchmark/ftool/ModelA_Ftool.png, id=675, 968.11688pt x 362.10281pt>
+File: results/benchmark/ftool/ModelA_Ftool.png Graphic file (type png)
+<use results/benchmark/ftool/ModelA_Ftool.png>
+Package pdftex.def Info: results/benchmark/ftool/ModelA_Ftool.png  used on inpu
+t line 154.
 (pdftex.def)             Requested size: 385.02547pt x 144.00977pt.
-<../images/ModelB.png, id=678, 797.22844pt x 415.5525pt>
-File: ../images/ModelB.png Graphic file (type png)
-<use ../images/ModelB.png>
-Package pdftex.def Info: ../images/ModelB.png  used on input line 167.
+<report/images/ModelB.png, id=676, 797.22844pt x 415.5525pt>
+File: report/images/ModelB.png Graphic file (type png)
+<use report/images/ModelB.png>
+Package pdftex.def Info: report/images/ModelB.png  used on input line 167.
 (pdftex.def)             Requested size: 385.02547pt x 200.69304pt.
- [32 <../../results/benchmark/ftool/ModelA_Ftool.png>] [33 <../images/ModelB.pn
-g>] [34] [35] [36]
-<../images/ModelB(1).png, id=714, 471.26062pt x 297.36093pt>
-File: ../images/ModelB(1).png Graphic file (type png)
-<use ../images/ModelB(1).png>
-Package pdftex.def Info: ../images/ModelB(1).png  used on input line 387.
+ [32 <./results/benchmark/ftool/ModelA_Ftool.png>] [33 <./report/images/ModelB.
+png>] [34] [35] [36]
+<report/images/ModelB(1).png, id=715, 471.26062pt x 297.36093pt>
+File: report/images/ModelB(1).png Graphic file (type png)
+<use report/images/ModelB(1).png>
+Package pdftex.def Info: report/images/ModelB(1).png  used on input line 387.
 (pdftex.def)             Requested size: 385.02547pt x 242.94821pt.
- [37 <../images/ModelB(1).png>] [38])
-(Chapter4_Assignment4_Conclusion.tex [39]
+ [37 <./report/images/ModelB(1).png>] [38])
+(report/chapters/Chapter4_Assignment4_Conclusion.tex [39]
 Chapter 4.
-) (Chapter5_Assignment4_References.tex [40
+) (report/chapters/Chapter5_Assignment4_References.tex [40
 
 ]
 Chapter 5.
@@ -1182,29 +1182,46 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24738 strings out of 467871
- 439165 string characters out of 5418376
- 1383236 words of memory out of 5000000
- 53072 multiletter control sequences out of 15000+600000
+ 24743 strings out of 467871
+ 439753 string characters out of 5418376
+ 1383304 words of memory out of 5000000
+ 53069 multiletter control sequences out of 15000+600000
  682322 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,13n,79p,784b,1306s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Imran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
-b><C:/Users/Imran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pf
-b><C:/Users/Imran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pf
-b><C:/Users/Imran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb
-><C:/Users/Imran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb>
-<C:/Users/Imran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><
-C:/Users/Imran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:
-/Users/Imran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/U
-sers/Imran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/U
-sers/Imran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/U
-sers/Imran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Us
-ers/Imran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Us
-ers/Imran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (47 pages, 675489 bytes).
+ 75i,13n,79p,702b,1306s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{table.caption.48} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.46} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.44} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.50} has been referenced but does not
+ exist, replaced by a fixed one
+
+<C:/Users/Imran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb>
+<C:/Users/Imran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb>
+<C:/Users/Imran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb>
+<C:/Users/Imran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><
+C:/Users/Imran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C
+:/Users/Imran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:
+/Users/Imran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/U
+sers/Imran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Use
+rs/Imran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Use
+rs/Imran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Use
+rs/Imran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/User
+s/Imran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/User
+s/Imran/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
+Output written on C:\DDrive\Imran\METU\Coursework\CE4011\Assignment4\report\mai
+n.pdf (47 pages, 675683 bytes).
 PDF statistics:
- 872 PDF objects out of 1000 (max. 8388607)
- 234 named destinations out of 1000 (max. 500000)
+ 876 PDF objects out of 1000 (max. 8388607)
+ 238 named destinations out of 1000 (max. 500000)
  637 words of extra memory for PDF output out of 10000 (max. 10000000)
 

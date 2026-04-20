@@ -64,7 +64,8 @@ def test_regression_xml_thermal_gradient_frame():
 
     # Validated against current XML inputs:
     # fully fixed concrete frame with current gradient case
-    expected_m = 102400.02
+    # sign convention: delta_T = T_bottom - T_top
+    expected_m = -102400.02
 
     assert reactions[1]["rx"] == pytest.approx(0.0)
     assert reactions[2]["rx"] == pytest.approx(0.0)
@@ -89,7 +90,8 @@ def test_regression_xml_thermal_combined_frame():
     # Validated against current XML inputs:
     # average temperature = 15 C, gradient = 10 C
     expected_n = 1152000.0
-    expected_m = 51200.01
+    # sign convention: gradient contribution uses delta_T = T_bottom - T_top
+    expected_m = -51200.01
 
     assert reactions[1]["rx"] == pytest.approx(expected_n)
     assert reactions[2]["rx"] == pytest.approx(-expected_n)

@@ -1,5 +1,5 @@
 === MODEL B THERMAL RESULTS ===
-Input XML: ModelB.xml
+Input XML: C:\DDrive\Imran\METU\Coursework\CE4011\Assignment4\inputs\q2\ModelB.xml
 
 Nodes: 5
 Elements: 4
@@ -7,28 +7,28 @@ Active DOFs: 4
 
 Nodal Displacements [ux, uy, rz]
 Node 1: ux=0.000000e+00, uy=0.000000e+00, rz=0.000000e+00
-Node 2: ux=-7.322475e-07, uy=-1.938614e-03, rz=-4.593262e-04
-Node 3: ux=0.000000e+00, uy=0.000000e+00, rz=1.677766e-03
+Node 2: ux=-5.887383e-07, uy=3.921115e-03, rz=6.464795e-04
+Node 3: ux=0.000000e+00, uy=0.000000e+00, rz=-2.101759e-03
 Node 4: ux=0.000000e+00, uy=0.000000e+00, rz=0.000000e+00
 Node 5: ux=0.000000e+00, uy=0.000000e+00, rz=0.000000e+00
 
 Support Reactions [Rx, Ry, Mz]
-Node 1: Rx=1.921004e+03, Ry=5.928565e+00, Mz=3.103465e+02
-Node 2: Rx=1.518785e-13, Ry=-5.329071e-14, Mz=-2.273737e-13
-Node 3: Rx=-1.919219e+03, Ry=-2.987183e+01, Mz=-2.273737e-13
-Node 4: Rx=6.468865e+00, Ry=1.293773e+01, Mz=0.000000e+00
-Node 5: Rx=-8.254154e+00, Ry=1.100554e+01, Mz=0.000000e+00
+Node 1: Rx=1.920807e+03, Ry=-2.970681e+01, Mz=-4.072593e+02
+Node 2: Rx=-7.254197e-13, Ry=8.881784e-14, Mz=-3.126388e-13
+Node 3: Rx=-1.919372e+03, Ry=2.214573e+01, Mz=0.000000e+00
+Node 4: Rx=1.694164e+00, Ry=3.388327e+00, Mz=0.000000e+00
+Node 5: Rx=-3.129564e+00, Ry=4.172752e+00, Mz=0.000000e+00
 
 Element End Forces
 Element 1:
-  i-end: Nx=1.921004e+03, Vy=5.928565e+00, Mz=3.103465e+02
-  j-end: Nx=-1.921004e+03, Vy=-5.928565e+00, Mz=-2.688465e+02
+  i-end: Nx=1.920807e+03, Vy=-2.970681e+01, Mz=-4.072593e+02
+  j-end: Nx=-1.920807e+03, Vy=2.970681e+01, Mz=1.993116e+02
 Element 2:
-  i-end: Nx=1.919219e+03, Vy=2.987183e+01, Mz=2.688465e+02
-  j-end: Nx=-1.919219e+03, Vy=-2.987183e+01, Mz=-2.273737e-13
+  i-end: Nx=1.919372e+03, Vy=-2.214573e+01, Mz=-1.993116e+02
+  j-end: Nx=-1.919372e+03, Vy=2.214573e+01, Mz=0.000000e+00
 Element 3:
-  i-end: Nx=1.446482e+01, Vy=0.000000e+00, Mz=0.000000e+00
-  j-end: Nx=-1.446482e+01, Vy=0.000000e+00, Mz=0.000000e+00
+  i-end: Nx=3.788265e+00, Vy=0.000000e+00, Mz=0.000000e+00
+  j-end: Nx=-3.788265e+00, Vy=0.000000e+00, Mz=0.000000e+00
 Element 4:
-  i-end: Nx=1.375692e+01, Vy=0.000000e+00, Mz=0.000000e+00
-  j-end: Nx=-1.375692e+01, Vy=0.000000e+00, Mz=0.000000e+00
+  i-end: Nx=5.215939e+00, Vy=0.000000e+00, Mz=0.000000e+00
+  j-end: Nx=-5.215939e+00, Vy=0.000000e+00, Mz=0.000000e+00

@@ -13,7 +13,15 @@ class ThermalLoadInput:
 
 
 def normalize_thermal_input(load: Mapping[str, float]) -> ThermalLoadInput:
-    """Normalize user thermal input to (T_uniform, delta_T)."""
+        """Normalize user thermal input to (T_uniform, delta_T).
+
+        Convention:
+            T_uniform = 0.5 * (T_top + T_bottom)
+            delta_T   = T_bottom - T_top
+
+        With this definition, a hotter bottom fiber (T_bottom > T_top) yields
+        positive delta_T and therefore positive sagging thermal curvature.
+        """
     if "T_top" in load or "T_bottom" in load:
         if "T_top" not in load or "T_bottom" not in load:
             raise ValueError("Thermal load with T_top/T_bottom must provide both values.")
@@ -21,7 +29,7 @@ def normalize_thermal_input(load: Mapping[str, float]) -> ThermalLoadInput:
         t_top = float(load["T_top"])
         t_bottom = float(load["T_bottom"])
         t_uniform = 0.5 * (t_top + t_bottom)
-        delta_t = t_top - t_bottom
+        delta_t = t_bottom - t_top
         return ThermalLoadInput(T_uniform=t_uniform, delta_T=delta_t)
 
     t_uniform = float(load.get("T_uniform", 0.0))

@@ -21,6 +21,8 @@ This distinction ensures that:
     \item Settlement effects are handled globally through system partitioning
 \end{itemize}
 
+A unified \texttt{TemperatureLoad} representation was adopted with fields $T_{\text{uniform}}$, $T_{\text{top}}$, and $T_{\text{bottom}}$ to avoid duplicating load definitions across element types and to keep the load abstraction consistent. Element-specific behavior is handled polymorphically (\texttt{FrameElement} vs. \texttt{TrussElement}), where frame elements generate both axial and bending effects while truss elements retain axial-only behavior. This design improves extensibility at the cost of requiring conditional handling within element implementations.
+
 \subsection{Modification Strategy}
 
 The solver was extended using the following approach:
