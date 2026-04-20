@@ -1,0 +1,96 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.11.15, pytest-9.0.2, pluggy-1.5.0 -- C:\DDrive\conda\ce4011\python.exe
+cachedir: .pytest_cache
+rootdir: C:\DDrive\Imran\METU\Coursework\CE4011\Assignment4
+collecting ... collected 4 items
+
+tests/test_xml_regression.py::test_regression_xml_thermal_uniform_truss PASSED [ 25%]
+tests/test_xml_regression.py::test_regression_xml_thermal_gradient_frame PASSED [ 50%]
+tests/test_xml_regression.py::test_regression_xml_thermal_combined_frame PASSED [ 75%]
+tests/test_xml_regression.py::test_regression_xml_settlement_single_frame PASSED [100%]
+
+============================== 4 passed in 0.03s ==============================
+
+
+Detailed Regression Verification
+==============================================================================
+Tolerance used in checks: rel=1e-6, abs=1e-8
+
+R1 -> regression_thermal_uniform_truss.xml
+------------------------------------------------------------------------------
+Support reactions:
+  Node 1: Rx=6559.645460695200, Ry=0.000000000000, Mz=0.000000000000
+  Node 2: Rx=-6559.645460695200, Ry=0.000000000000, Mz=0.000000000000
+Member end forces (Element 1):
+  i-end: Nx=6559.645460695200, Vy=0.000000000000, Mz=0.000000000000
+  j-end: Nx=-6559.645460695200, Vy=0.000000000000, Mz=0.000000000000
+Why this test passed:
+  [PASS] reactions[1].rx == +N: actual=6559.645460695200, expected=6559.645460695200
+  [PASS] reactions[2].rx == -N: actual=-6559.645460695200, expected=-6559.645460695200
+  [PASS] all Ry == 0: actual=0.000000000000, expected=0.000000000000
+  [PASS] all Mz == 0: actual=0.000000000000, expected=0.000000000000
+  [PASS] member i Nx == +N: actual=6559.645460695200, expected=6559.645460695200
+  [PASS] member j Nx == -N: actual=-6559.645460695200, expected=-6559.645460695200
+  [PASS] member Vy == 0: actual=0.000000000000, expected=0.000000000000
+  [PASS] member Mz == 0: actual=0.000000000000, expected=0.000000000000
+  -> Result: PASSED (all assertion checks satisfied)
+
+R2 -> regression_thermal_gradient_frame.xml
+------------------------------------------------------------------------------
+Support reactions:
+  Node 1: Rx=0.000000000000, Ry=0.000000000000, Mz=102400.020000000004
+  Node 2: Rx=0.000000000000, Ry=0.000000000000, Mz=-102400.020000000004
+Member end forces (Element 1):
+  i-end: Nx=0.000000000000, Vy=0.000000000000, Mz=102400.020000000004
+  j-end: Nx=0.000000000000, Vy=0.000000000000, Mz=-102400.020000000004
+Why this test passed:
+  [PASS] reactions Rx == 0: actual=0.000000000000, expected=0.000000000000
+  [PASS] reactions Ry == 0: actual=0.000000000000, expected=0.000000000000
+  [PASS] reactions[1].Mz == +M: actual=102400.020000000004, expected=102400.020000000004
+  [PASS] reactions[2].Mz == -M: actual=-102400.020000000004, expected=-102400.020000000004
+  [PASS] member Nx == 0: actual=0.000000000000, expected=0.000000000000
+  [PASS] member Vy == 0: actual=0.000000000000, expected=0.000000000000
+  [PASS] member i Mz == +M: actual=102400.020000000004, expected=102400.020000000004
+  [PASS] member j Mz == -M: actual=-102400.020000000004, expected=-102400.020000000004
+  -> Result: PASSED (all assertion checks satisfied)
+
+R3 -> regression_thermal_combined_frame.xml
+------------------------------------------------------------------------------
+Support reactions:
+  Node 1: Rx=1152000.000000000000, Ry=0.000000000000, Mz=51200.010000000002
+  Node 2: Rx=-1152000.000000000000, Ry=0.000000000000, Mz=-51200.010000000002
+Member end forces (Element 1):
+  i-end: Nx=1152000.000000000000, Vy=0.000000000000, Mz=51200.010000000002
+  j-end: Nx=-1152000.000000000000, Vy=0.000000000000, Mz=-51200.010000000002
+Why this test passed:
+  [PASS] reactions[1].Rx == +N: actual=1152000.000000000000, expected=1152000.000000000000
+  [PASS] reactions[2].Rx == -N: actual=-1152000.000000000000, expected=-1152000.000000000000
+  [PASS] reactions Ry == 0: actual=0.000000000000, expected=0.000000000000
+  [PASS] reactions[1].Mz == +M: actual=51200.010000000002, expected=51200.010000000002
+  [PASS] reactions[2].Mz == -M: actual=-51200.010000000002, expected=-51200.010000000002
+  [PASS] member i Nx == +N: actual=1152000.000000000000, expected=1152000.000000000000
+  [PASS] member j Nx == -N: actual=-1152000.000000000000, expected=-1152000.000000000000
+  [PASS] member i Mz == +M: actual=51200.010000000002, expected=51200.010000000002
+  [PASS] member j Mz == -M: actual=-51200.010000000002, expected=-51200.010000000002
+  -> Result: PASSED (all assertion checks satisfied)
+
+R4 -> regression_settlement_single_frame.xml
+------------------------------------------------------------------------------
+Support reactions:
+  Node 1: Rx=0.000000000000, Ry=73242.140625000000, Mz=292968.562500000000
+  Node 2: Rx=0.000000000000, Ry=-73242.140625000000, Mz=0.000000000000
+Member end forces (Element 1):
+  i-end: Nx=0.000000000000, Vy=73242.140625000000, Mz=292968.562500000000
+  j-end: Nx=0.000000000000, Vy=-73242.140625000000, Mz=0.000000000000
+Why this test passed:
+  [PASS] reactions Rx == 0: actual=0.000000000000, expected=0.000000000000
+  [PASS] vertical equilibrium Ry1 + Ry2 == 0: actual=0.000000000000, expected=0.000000000000
+  [PASS] |Ry1| == V: actual=73242.140625000000, expected=73242.140625000000
+  [PASS] |Ry2| == V: actual=73242.140625000000, expected=73242.140625000000
+  [PASS] reaction Mz at node 1 == M1: actual=292968.562500000000, expected=292968.562500000000
+  [PASS] reaction Mz at node 2 == 0: actual=0.000000000000, expected=0.000000000000
+  [PASS] |member i Vy| == V: actual=73242.140625000000, expected=73242.140625000000
+  [PASS] |member j Vy| == V: actual=73242.140625000000, expected=73242.140625000000
+  [PASS] member i Mz == M1: actual=292968.562500000000, expected=292968.562500000000
+  [PASS] member j Mz == 0: actual=0.000000000000, expected=0.000000000000
+  -> Result: PASSED (all assertion checks satisfied)

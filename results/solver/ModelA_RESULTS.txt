@@ -1,0 +1,28 @@
+Loading case: ModelA.xml
+Active DOFs: 11
+Displacement norm: 2.352853e-03
+
+Support reactions:
+  Node 1: Rx=-6.732560, Ry=9.510434, Mz=-0.000000
+  Node 2: Rx=-0.000027, Ry=0.000004, Mz=-0.000001
+  Node 3: Rx=-0.000001, Ry=-0.000000, Mz=0.000000
+  Node 4: Rx=0.000009, Ry=-0.000000, Mz=0.000000
+  Node 5: Rx=5.065864, Ry=-11.732724, Mz=-0.000001
+  Node 6: Rx=1.666714, Ry=2.222285, Mz=0.000000
+
+Member end forces (local):
+  Element 1:
+    i-end: Nx=-6.732560, Vy=9.510434, Mz=-0.000000
+    j-end: Nx=6.732560, Vy=-9.510434, Mz=38.041737
+  Element 2:
+    i-end: Nx=-1.666723, Vy=-2.222285, Mz=-17.778283
+    j-end: Nx=1.666723, Vy=2.222285, Mz=0.000000
+  Element 3:
+    i-end: Nx=-0.000009, Vy=0.000000, Mz=0.000000
+    j-end: Nx=0.000009, Vy=-0.000000, Mz=0.000000
+  Element 4:
+    i-end: Nx=-11.732724, Vy=-5.065864, Mz=-20.263455
+    j-end: Nx=11.732724, Vy=5.065864, Mz=-0.000001
+  Element 5:
+    i-end: Nx=2.777857, Vy=0.000000, Mz=0.000000
+    j-end: Nx=-2.777857, Vy=0.000000, Mz=0.000000

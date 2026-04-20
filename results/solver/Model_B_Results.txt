@@ -1,0 +1,34 @@
+=== MODEL B THERMAL RESULTS ===
+Input XML: ModelB.xml
+
+Nodes: 5
+Elements: 4
+Active DOFs: 4
+
+Nodal Displacements [ux, uy, rz]
+Node 1: ux=0.000000e+00, uy=0.000000e+00, rz=0.000000e+00
+Node 2: ux=-7.322475e-07, uy=-1.938614e-03, rz=-4.593262e-04
+Node 3: ux=0.000000e+00, uy=0.000000e+00, rz=1.677766e-03
+Node 4: ux=0.000000e+00, uy=0.000000e+00, rz=0.000000e+00
+Node 5: ux=0.000000e+00, uy=0.000000e+00, rz=0.000000e+00
+
+Support Reactions [Rx, Ry, Mz]
+Node 1: Rx=1.921004e+03, Ry=5.928565e+00, Mz=3.103465e+02
+Node 2: Rx=1.518785e-13, Ry=-5.329071e-14, Mz=-2.273737e-13
+Node 3: Rx=-1.919219e+03, Ry=-2.987183e+01, Mz=-2.273737e-13
+Node 4: Rx=6.468865e+00, Ry=1.293773e+01, Mz=0.000000e+00
+Node 5: Rx=-8.254154e+00, Ry=1.100554e+01, Mz=0.000000e+00
+
+Element End Forces
+Element 1:
+  i-end: Nx=1.921004e+03, Vy=5.928565e+00, Mz=3.103465e+02
+  j-end: Nx=-1.921004e+03, Vy=-5.928565e+00, Mz=-2.688465e+02
+Element 2:
+  i-end: Nx=1.919219e+03, Vy=2.987183e+01, Mz=2.688465e+02
+  j-end: Nx=-1.919219e+03, Vy=-2.987183e+01, Mz=-2.273737e-13
+Element 3:
+  i-end: Nx=1.446482e+01, Vy=0.000000e+00, Mz=0.000000e+00
+  j-end: Nx=-1.446482e+01, Vy=0.000000e+00, Mz=0.000000e+00
+Element 4:
+  i-end: Nx=1.375692e+01, Vy=0.000000e+00, Mz=0.000000e+00
+  j-end: Nx=-1.375692e+01, Vy=0.000000e+00, Mz=0.000000e+00

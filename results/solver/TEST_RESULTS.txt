@@ -1,0 +1,30 @@
+The complete automated test suite was executed to validate all 8 mandatory tests for the assignment. All tests executed successfully without errors:
+
+CE4011 Assignment 4
+Imran Shahriar - 2735835
+
+============================= test session starts =============================
+platform win32 -- Python 3.11.15, pytest-9.0.2, pluggy-1.5.0 -- C:\DDrive\conda\ce4011\python.exe
+cachedir: .pytest_cache
+rootdir: C:\DDrive\Imran\METU\Coursework\CE4011\Assignment3\q2_frame_analysis
+configfile: pytest.ini
+collecting ... collected 8 items
+
+q2_frame_analysis\tests\test_solver_suite.py::test_ut_t1_uniform_thermal_bar PASSED [ 12%]
+q2_frame_analysis\tests\test_solver_suite.py::test_ut_t2_gradient_frame PASSED [ 25%]
+q2_frame_analysis\tests\test_solver_suite.py::test_ut_s1_single_member_settlement PASSED [ 37%]
+q2_frame_analysis\tests\test_solver_suite.py::test_ut_s2_zero_settlement PASSED [ 50%]
+q2_frame_analysis\tests\test_solver_suite.py::test_it_t1_frame_thermal PASSED [ 62%]
+q2_frame_analysis\tests\test_solver_suite.py::test_it_t2_mixed_thermal PASSED [ 75%]
+q2_frame_analysis\tests\test_solver_suite.py::test_it_s1_frame_settlement PASSED [ 87%]
+q2_frame_analysis\tests\test_solver_suite.py::test_it_s2_mixed_settlement PASSED [100%]
+
+============================== 8 passed in 0.05s ==============================
+
+
+Test Summary:
+• All 8 mandatory tests passed successfully
+• Total execution time: 0.05 seconds
+• Test categories validated:
+  – Unit Tests: 4 passing (UT-T1, UT-T2, UT-S1, UT-S2)
+  – Interface Tests: 4 passing (IT-T1, IT-T2, IT-S1, IT-S2)

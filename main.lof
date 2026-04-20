@@ -1,9 +1,16 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Revised UML/Class Diagram showing thermal and settlement extensions}}{3}{figure.caption.4}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Updated analysis workflow incorporating thermal and settlement effects}}{6}{figure.caption.5}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Revised UML/Class Diagram showing thermal and settlement extensions}}{4}{figure.caption.5}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Updated analysis workflow incorporating thermal and settlement effects}}{9}{figure.caption.11}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Pytest console output for the 8 mandatory unit and interface tests}}{22}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Regression Test R1 model in FTool: uniform thermal truss case}}{23}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Regression Test R2 model in FTool: pure thermal gradient frame case}}{24}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Regression Test R3 model in FTool: combined thermal frame case}}{24}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Regression Test R4 model in FTool: settlement frame case}}{25}{figure.caption.29}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Placeholder: SAP2000/benchmark output for Structure (a)}}{12}{figure.caption.11}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Placeholder: SAP2000/benchmark output for Structure (b)}}{13}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Model of Structure (a): Settlement Case (Case 2a)}}{28}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces FTOOL Benchmark Output for Structure (a)}}{31}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Model of Structure (b): Thermal Loading Case (Case 2b)}}{31}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces FTOOL Benchmark Output for Structure (b)}}{35}{figure.caption.50}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
